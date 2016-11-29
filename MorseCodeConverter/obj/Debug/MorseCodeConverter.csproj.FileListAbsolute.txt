@@ -1,1 +1,6 @@
 C:\Users\Justin Hazlewood\tiy\week-3\MorseCodeConverter\MorseCodeConverter\bin\Debug\MorseCodeConverter.exe.config
+C:\Users\Justin Hazlewood\tiy\week-3\MorseCodeConverter\MorseCodeConverter\obj\Debug\MorseCodeConverter.csprojResolveAssemblyReference.cache
+C:\Users\Justin Hazlewood\tiy\week-3\MorseCodeConverter\MorseCodeConverter\bin\Debug\MorseCodeConverter.exe
+C:\Users\Justin Hazlewood\tiy\week-3\MorseCodeConverter\MorseCodeConverter\bin\Debug\MorseCodeConverter.pdb
+C:\Users\Justin Hazlewood\tiy\week-3\MorseCodeConverter\MorseCodeConverter\obj\Debug\MorseCodeConverter.exe
+C:\Users\Justin Hazlewood\tiy\week-3\MorseCodeConverter\MorseCodeConverter\obj\Debug\MorseCodeConverter.pdb
