@@ -10,11 +10,9 @@ namespace MorseCodeConverter
     class Program
     {
 
-
         static void Main(string[] args)
         {
             Dictionary<char, string> AlphaToMorse = new Dictionary<char, string>();
-            
             var filePath = "morse.csv";
 
             if (File.Exists(filePath))
@@ -28,22 +26,27 @@ namespace MorseCodeConverter
                         var morse = line[1];
 
                         AlphaToMorse.Add(letter, morse);
-
                     }
                 }
             }
-
-            Console.WriteLine("Enter a string that you would like to convert to morsecode");
-            string inputString = Console.ReadLine().ToUpper().Replace(" ", "");
-
-
-
-            foreach (var letter in inputString)
+            while (true)
             {
-                var morseCode = AlphaToMorse[letter];
-                Console.Write(morseCode);
+                Console.WriteLine("Enter a phrase that you would like to convert to morsecode then push enter. When you are finished type 'exit'");
+                string inputString = Console.ReadLine().ToUpper().Replace(" ", "").Replace(".", "").Replace(";", "");
+                if (inputString == "EXIT")
+                {
+                    break;
+                }
+                else
+                {
+                    foreach (var letter in inputString)
+                    {
+                        var morseCode = AlphaToMorse[letter];
+                        Console.Write(morseCode);
+                    }
+                }
+                Console.WriteLine();
             }
-            Console.WriteLine();
         }
     }
 }
